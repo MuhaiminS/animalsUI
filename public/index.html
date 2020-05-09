@@ -7,11 +7,15 @@
     <meta name="description" content="CoreUI for React - Open Source Bootstrap Admin Template">
     <meta name="author" content="Łukasz Holeczek">
     <meta name="keyword" content="Bootstrap,Admin,Template,Open,Source,CSS,SCSS,HTML,RWD,Dashboard,React">
-    <title>CoreUI for React</title>
+    <title>Resources</title>
     <!--
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
+    <link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+/>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <!--
@@ -35,7 +39,18 @@
       gtag('config', 'UA-118965717-6');
     </script>
   </head>
+<style>
 
+.header-fixed .app-header {
+  background: #008751;
+}
+.sidebar-fixed .app-header + .app-body .sidebar {
+  background: #008751;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+</style>
   <!-- BODY options, add following classes to body to change options
 
   // Header options

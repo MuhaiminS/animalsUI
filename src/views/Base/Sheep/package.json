@@ -1,6 +1,6 @@
 {
-  "name": "Cards",
+  "name": "Sheep",
   "version": "0.0.0",
   "private": true,
-  "main": "./Cards.js"
+  "main": "./Sheep.js"
 }
