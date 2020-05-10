@@ -32,7 +32,7 @@ export default class Sheep extends React.Component {
  * @returns : listeed data
  */
   componentDidMount(){
-    let url = "http://localhost/book-reviews-api/api/animals";
+    let url = "http://localhost/animals-api/api/animals";
     let header ={    
         'Access-Control-Allow-Origin': 'http://localhost' 
     };
@@ -79,7 +79,7 @@ closeAlert = ()=> {
  * @returns : response message from api
  */
 addNewAnimals(){
-  let url = "http://localhost/book-reviews-api/api/animals";
+  let url = "http://localhost/animals-api/api/animals";
   let header ={    
       'Accept':'application/json,text/plain',
       'Content-Type':'application/json',
@@ -154,7 +154,7 @@ addNewAnimals(){
  * @returns : response message from api
  */
 updateNewAnimals(){
-  let url = "http://localhost/book-reviews-api/api/animals";
+  let url = "http://localhost/animals-api/api/animals";
   let header ={    
       'Accept':'application/json,text/plain',
       'Content-Type':'application/json',
